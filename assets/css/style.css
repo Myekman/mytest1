@@ -1,0 +1,26 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+
+/* heading and logo */
+
+#logo {
+    background-color: #666666;
+}
+
+#container {
+    width: 200px;
+    height: 200px;
+    background: url(../images/logga.jpg) center center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
