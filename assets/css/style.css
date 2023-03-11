@@ -124,3 +124,29 @@ hr {
     background-size: 700px 1000px;
     background-repeat: no-repeat;
 }
+
+
+/* footer */
+
+footer {
+    height: 50px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.social-network {
+    text-align: center;
+}
+
+.social-network > li {
+    display: inline;
+}
+
+.social-network i {
+    font-size: 130%;
+    margin: 1%;
+    padding: 2%;
+    color: orange;
+}
