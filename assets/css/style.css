@@ -7,9 +7,18 @@
 }
 
 body {
-    font-family: "josefine slab", sans-serif;
-    font-weight: 300;
+    font-family: "montserrat", sans-serif;
+    font-weight:400;
     color: #3a3a3a;
+}
+
+/* social media links */
+
+.container {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    
 }
 
 
@@ -33,24 +42,17 @@ body {
 .logo p {
    margin-left: 5px;
    margin-top: 20px;
-   font-size: 20px;
+   font-size: 15px;
 }
 
 hr { 
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid  black;
     width: 60%;
     margin: 5px 0;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-.container {
-    width: 100%;
-    height: 30px;
-    background-color: black;
-    
-}
 
 /* nav bar */ 
 
@@ -73,7 +75,44 @@ hr {
     
 }
 
+#menu a:hover {
+        border-bottom: 1px solid orange;
+    }
+    
+
+
 /* firt page image */
+
+.text-button {
+    color: white;
+    font-size: 30px;
+    font-family: "palanquin" sans-serif;
+    height: 50px;
+    width: 300px;
+    background-color: orange;
+    border-style: solid;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    
+
+}
+
+.text-button a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.image-container p {
+    font-size: 30px;
+    font-family: "abril fatface", sans-serif;
+    margin-top: 600px;
+    text-align: center;
+    color: orange;
+}
 
 .image-container {
     width: 700px;
@@ -81,15 +120,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px;
-    position: relative;
-}
-
-.image-container img {
-    width: 100%;
-    height: auto;
-}
-
-.text-container {
-    color: red;
-    position: absolute;
+    background: url(../images/paint.hand.png) center center;
+    background-size: 700px 1000px;
+    background-repeat: no-repeat;
 }
