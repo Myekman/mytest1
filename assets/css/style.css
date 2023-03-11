@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Slab&family=Montserrat:wght@200&family=Palanquin:wght@600&display=swap');
 
 * {
     margin: 0;
@@ -5,12 +6,18 @@
     border: none;
 }
 
+body {
+    font-family: "josefine slab", sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
 
 /* heading and logo */
 
 .logo {
     width: 400px;
-    height: 230px;
+    height: 160px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 60px;
@@ -25,7 +32,7 @@
 
 .logo p {
    margin-left: 5px;
-   margin-top: 40px;
+   margin-top: 20px;
    font-size: 20px;
 }
 
@@ -45,13 +52,6 @@ hr {
     
 }
 
-.box {
-    height: 800px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-}
-
 /* nav bar */ 
 
 #menu {
@@ -63,7 +63,7 @@ hr {
 #menu li {
     list-style-type: none;
     display: inline;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 #menu a {
@@ -71,4 +71,25 @@ hr {
     color:#3a3a3a;
     font-size: 20px;
     
+}
+
+/* firt page image */
+
+.image-container {
+    width: 700px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.text-container {
+    color: red;
+    position: absolute;
 }
